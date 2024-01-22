@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  width: 174px;
+  height: 383px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-top: 25px;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+}
+
+.icons {
+  margin: 5%;
+  margin-top: 20px;
+  width: 20px;
+  height: 20px;
+ 
+}
+ 
+ .profilePic {
+  margin-top: -110px;
+  width: 174px;
+  height: 383px;
+ }
+
+ .decor1 {
+  width: 570px;
+  height: 140px;
+  z-index: -1 ;
+  margin-top: 120px ;
+  margin-right: 560px;
+  position: absolute;
+
+ }
+
+ article h1 {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+ }
+
+.underline {
+  width: 240px;
+  height: 4px;
+  background-color: #4ee1a0;
+  margin-left: 95px;
+ }
+
+ article p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+ }
+
+ .contact {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  color:white;
+ }
+
+
+ .underline2{
+  width: 117px;
+  height: 2px;
+  background-color: #4ee1a0;
+  display: flex;
+  margin-left: 128px;
+  margin-top: 2px;
+ }
+
+ .decor2 {
+  z-index: -1;
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  margin-left: 370px;
+  margin-top: 250px;
+  overflow: hidden;
+  display: block;
+  
+ }
+
+ .separation {
+  width: 343px;
+  height: 1px;
+  background-color: white;
+  margin-top: 70px;
+ }
+
+ section h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+ }
+ 
+section p {
+  color: #969696;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+ }
+ section div {
+  margin-top: 35px;
+ }
+
+ section div:last-child {
+  padding-bottom: 20px;
+ }
+
+ .contactUnderline {
+  position: static;
+ }
+
+ .adamUnderline {
+  position: static;
+ }
