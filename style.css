@@ -95,7 +95,7 @@ text-align: center;
   margin-top: 2px;
  }
 
- .decor2 {
+ /* .decor2 {
   z-index: -1;
   position: absolute;
   width: 129px;
@@ -105,7 +105,7 @@ text-align: center;
   overflow: hidden;
   display: block;
   
- }
+ } */
 
  .separation {
   width: 343px;
