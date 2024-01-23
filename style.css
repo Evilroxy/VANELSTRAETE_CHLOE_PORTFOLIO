@@ -1,4 +1,4 @@
-
+@media (max-width: 640px) {
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +13,7 @@ body {
   color: white;
   align-items: center;
   text-align: center;
+
 }
 
 header {
@@ -91,11 +92,17 @@ text-align: center;
   height: 2px;
   background-color: #4ee1a0;
   display: flex;
-  margin-left: 128px;
+  margin-left:4px;
   margin-top: 2px;
  }
 
- /* .decor2 {
+.contactUnderline {
+  display: flex;
+  justify-content: center;
+
+}
+
+ .decor2 {
   z-index: -1;
   position: absolute;
   width: 129px;
@@ -105,13 +112,13 @@ text-align: center;
   overflow: hidden;
   display: block;
   
- } */
+ }
 
  .separation {
   width: 343px;
   height: 1px;
   background-color: white;
-  margin-top: 70px;
+  margin-top: 60px;
  }
 
  section h1 {
@@ -120,7 +127,7 @@ text-align: center;
   line-height: 40px;
  }
  
-section p {
+div h1 p {
   color: #969696;
   font-size: 16px;
   font-weight: 500;
@@ -130,14 +137,56 @@ section p {
   margin-top: 35px;
  }
 
- section div:last-child {
-  padding-bottom: 20px;
- }
 
- .contactUnderline {
-  position: static;
- }
 
  .adamUnderline {
   position: static;
  }
+
+.projects h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.136px;
+}
+
+.miniHeader {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 343px;
+  height: 40px;
+  margin-top: 80px;
+}
+
+.projet img {
+  width: 345px;
+  height: 253px;
+  margin-top: 40px;
+}
+
+.projet section h2 {
+  display: flex;
+ justify-content: left;
+ margin-top: 10px;
+ font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; 
+}
+
+.projet section {
+  display: grid;
+
+}
+
+.projet section img {
+  display: grid;
+  
+}
+
+}
+
+
