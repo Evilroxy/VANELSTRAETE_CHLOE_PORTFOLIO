@@ -161,6 +161,18 @@ div h1 p {
   margin-top: 80px;
 }
 
+.miniHeader h1 {
+  margin-right: 40px;
+}
+
+.miniHeader .contact {
+  margin-top : 10px;
+}
+
+.miniHeader .underline2 {
+  margin-top: 6px;
+}
+
 .projet img {
   width: 345px;
   height: 253px;
@@ -168,25 +180,66 @@ div h1 p {
 }
 
 .projet section h2 {
-  display: flex;
+  display: grid;
  justify-content: left;
  margin-top: 10px;
  font-size: 20px;
   font-style: normal;
-  font-weight: 700;
   line-height: 32px; 
 }
 
-.projet section {
+.projet section p {
+  word-spacing:10px ;
+  margin-top: 10px;
+  margin-bottom: 15px;
   display: grid;
+  justify-content: left;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #d9d9d9;
+}
+
+.link{
+  margin-top: 10px;
+  width: 271px;
+  height: 38px;
+  color: white;
+  display: inline;
+  margin-right: 100px;
+  /* padding-top: 16px; */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.286px;
 
 }
 
-.projet section img {
-  display: grid;
-  
+.link a {
+  color: white;
+  text-decoration: none;
 }
 
+.underline3 {
+  position: absolute;
+  width: 135px;
+  height: 2px;
+  background-color: #4ee1a0;
+
+}
+
+.underline4 {
+  position: absolute;
+  width: 103px;
+  height: 2px;
+  background-color: #4ee1a0;
+  margin-left: 150px;
+  margin-top: 9px; 
+}
+span a:first-child {
+  margin-right: 10px;
+}
 }
 
 
